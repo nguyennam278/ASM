@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 5</title>
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            /* sửa solid thành double là oke nha em */
+            border: 1px double black;
+        }
+        
+        table {
+            float: left;
+            margin-top: 50px;
+            margin-left: 30px;
+        }
+
+        .t2 {
+            margin-left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="t1">
+        <tr>
+            <th>Họ tên</th>
+            <th>Ngày sinh</th>
+            <th>Giới tính</th>
+        </tr>
+        <tr>
+            <td>Trần Anh Đức</td>
+            <td>03/08/1998</td>
+            <td>Nam</td>
+        </tr>
+
+        <tr>
+            <td>Kiều Thị Thu Hằng</td>
+            <td>04/09/1991</td>
+            <td>Nữ</td>
+        </tr>
+
+        <tr>
+            <td>Vương Thị Lê Na</td>
+            <td>06/10/1991</td>
+            <td>Nữ</td>
+        </tr>
+    </table>
+
+    <div>
+        <table class="t2">
+            <tr>
+                <th colspan="2">Bảng điểm lớp 9B</th>
+                <th rowspan="2">Toán</th>
+                <th rowspan="2">Lý</th>
+                <th rowspan="2">Hoá</th>
+            </tr>
+            <tr>
+                <th>STT</th>
+                <th>Họ tên</th>
+
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Trần Đức Anh</td>
+                <td>8.5</td>
+                <td>3.0</td>
+                <td>7.75</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Kiều Thị Thu Hằng</td>
+                <td>10</td>
+                <td>9.25</td>
+                <td>5.75</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Vương Thị Lê Na</td>
+                <td>2.25</td>
+                <td>6.0</td>
+                <td>7.75</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td colspan="4">Điểm trung bình cả lớp</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
